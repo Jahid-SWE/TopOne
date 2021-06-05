@@ -5,10 +5,13 @@
         <div class="container">
             <div class="callbacks_container">
                 <ul class="rslides" id="slider">
-                    <li><img src="{{ asset('front/images/test-banner.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('/') }}front/images/slider3_1.jpg" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/5.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/6.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/7.jpg') }}" class="img-responsive" alt=""/></li>
                     <li><img src="{{ asset('/') }}front/images/slider1_1.PNG" class="img-responsive" alt=""/></li>
                     <li><img src="{{ asset('/') }}front/images/slider3_1.jpg" class="img-responsive" alt=""/></li>
-                    <li><img src="{{ asset('/') }}front/images/slider3_1.jpg" class="img-responsive" alt=""/></li>
+
                 </ul>
             </div>
         </div>
@@ -118,7 +121,7 @@
         </div>
     </div>
 
-    <div class="container">
+  {{--  <div class="container">
         <div class="content_middle_bottom">
             <div class="col-md-4">
                 <ul class="spinner">
@@ -217,6 +220,109 @@
             </div>
             <div class="clearfix"></div>
         </div>
+        <div class="content_bottom">
+            <div class="col-md-3 span_1">
+                <ul class="spinner">
+                    <i class="box_icon"> </i>
+                    <li class="spinner_head"><h3>mazim pla</h3></li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <img src="{{ asset('/') }}front/images/t8.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-3 span_1">
+                <ul class="spinner">
+                    <i class="bubble"> </i>
+                    <li class="spinner_head"><h3>About Us</h3></li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+            </div>
+            <div class="col-md-3 span_1">
+                <ul class="spinner">
+                    <i class="mail"> </i>
+                    <li class="spinner_head"><h3>Contact Us</h3></li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <ul class="social">
+                    <li><a href=""> <i class="fb"> </i> </a></li>
+                    <li><a href=""><i class="tw"> </i> </a></li>
+                    <li><a href=""><i class="google"> </i> </a></li>
+                    <li><a href=""><i class="linkedin"> </i> </a></li>
+                    <li><a href=""><i class="skype"> </i> </a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 span_1">
+                <ul class="spinner">
+                    <i class="mail"> </i>
+                    <li class="spinner_head"><h3>Contact Us</h3></li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <p>500 Lorem Ipsum Dolor Sit,</p>
+                <p>22-56-2-9 Sit Amet, Lorem,</p>
+                <p>Phone:(00) 222 666 444</p>
+                <p><a href="mailto:info@demo.com"> info(at)gifty.com</a></p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>--}}
+        <div class="content_middle">
+        <div class="container">
+            <ul class="promote">
+                <i class="promote_icon"> </i>
+                <section class="newsletter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="content">
+                                    <h2>SUBSCRIBE TO OUR ONLINE SHOP</h2>
+                                    <form name="subscriber" method="post" action="{{route('subscribe')}}">
+                                        @csrf
+                                        <div class="input-group">
+
+                                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                                            <span class="input-group-btn">
+                                                     <button class="btn" type="submit">Subscribe Now</button>
+                                      </span>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>        </ul>
+
+            <script type="text/javascript">
+                $(window).load(function() {
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 6,
+                        animationSpeed: 1000,
+                        autoPlay:true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint:480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint:640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint:768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+            <script type="text/javascript" src="{{ asset('/') }}front/js/jquery.flexisel.js"></script>
+        </div>
+    </div>
+    <div class="container">
         <div class="content_bottom">
             <div class="col-md-3 span_1">
                 <ul class="spinner">

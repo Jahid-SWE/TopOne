@@ -5,9 +5,12 @@
         <div class="container">
             <div class="callbacks_container">
                 <ul class="rslides" id="slider">
-                    <li><img src="{{ asset('/') }}front/images/slider1.jpg" class="img-responsive" alt=""/></li>
-                    <li><img src="{{ asset('/') }}front/images/2.jpg" class="img-responsive" alt=""/></li>
-                    <li><img src="{{ asset('/') }}front/images/3.jpg" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider3_1.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/5.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/6.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/7.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider1_1.PNG') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider3_1.jpg') }}" class="img-responsive" alt=""/></li>
                 </ul>
             </div>
         </div>
@@ -101,105 +104,65 @@
                        <script type="text/javascript" src="{{ asset('/') }}front/js/jquery.flexisel.js"></script>
         </div>
     </div>--}}
-    <div class="container">
-        <div class="content_middle_bottom">
-            <div class="col-md-4">
-                <ul class="spinner">
-                    <i class="spinner_icon"> </i>
-                    <li class="spinner_head"><h3>But I must explain</h3></li>
-                    <div class="clearfix"> </div>
-                </ul>
-                <div class="timer_box">
-                    <div class="thumb"> </div>
-                    <div class="timer_grid">
-                        <ul id="countdown">
-                        </ul>
-                        <ul class="navigation">
-                            <li>
-                                <p class="timeRefDays">DAYS</p>
-                            </li>
-                            <li>
-                                <p class="timeRefHours">HOURS</p>
-                            </li>
-                            <li>
-                                <p class="timeRefMinutes">MINUTES</p>
-                            </li>
-                            <li>
-                                <p class="timeRefSeconds">SECONDS</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="thumb_desc">
-                        <h3> totam rem aperiam</h3>
-                        <div class="price">
-                            <span class="reducedfrom">$140.00</span>
-                            <span class="actual">$120.00</span>
+
+        <div class="content_middle">
+        <div class="container">
+            <ul class="promote">
+                <i class="promote_icon"> </i>
+                <section class="newsletter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="content">
+                                    <h2>SUBSCRIBE TO OUR ONLINE SHOP</h2>
+                                    <form name="subscriber" method="post" action="{{route('subscribe')}}">
+                                        @csrf
+                                        <div class="input-group">
+
+                                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                                            <span class="input-group-btn">
+                                                     <button class="btn" type="submit">Subscribe Now</button>
+                                      </span>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <a href="#"><div class="m_3 deal"><div class="link3">Buy this deal</div></div></a>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <ul class="spinner">
-                    <i class="paperclip"> </i>
-                    <li class="spinner_head"><h3>From the Blog</h3></li>
-                    <div class="clearfix"> </div>
-                </ul>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t4.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t5.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t6.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t7.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
+                </section>        </ul>
+
+            <script type="text/javascript">
+                $(window).load(function() {
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 6,
+                        animationSpeed: 1000,
+                        autoPlay:true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint:480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint:640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint:768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+            <script type="text/javascript" src="{{ asset('/') }}front/js/jquery.flexisel.js"></script>
         </div>
+    </div>
+    <div class="container">
         <div class="content_bottom">
             <div class="col-md-3 span_1">
                 <ul class="spinner">

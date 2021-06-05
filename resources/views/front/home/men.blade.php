@@ -5,9 +5,12 @@
         <div class="container">
             <div class="callbacks_container">
                 <ul class="rslides" id="slider">
-                    <li><img src="{{ asset('/') }}front/images/slider1.jpg" class="img-responsive" alt=""/></li>
-                    <li><img src="{{ asset('/') }}front/images/2.jpg" class="img-responsive" alt=""/></li>
-                    <li><img src="{{ asset('/') }}front/images/3.jpg" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider3_1.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/5.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/6.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/7.jpg') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider1_1.PNG') }}" class="img-responsive" alt=""/></li>
+                    <li><img src="{{ asset('front/images/slider3_1.jpg') }}" class="img-responsive" alt=""/></li>
                 </ul>
             </div>
         </div>
@@ -102,104 +105,6 @@
         </div>
     </div>--}}
     <div class="container">
-        <div class="content_middle_bottom">
-            <div class="col-md-4">
-                <ul class="spinner">
-                    <i class="spinner_icon"> </i>
-                    <li class="spinner_head"><h3>But I must explain</h3></li>
-                    <div class="clearfix"> </div>
-                </ul>
-                <div class="timer_box">
-                    <div class="thumb"> </div>
-                    <div class="timer_grid">
-                        <ul id="countdown">
-                        </ul>
-                        <ul class="navigation">
-                            <li>
-                                <p class="timeRefDays">DAYS</p>
-                            </li>
-                            <li>
-                                <p class="timeRefHours">HOURS</p>
-                            </li>
-                            <li>
-                                <p class="timeRefMinutes">MINUTES</p>
-                            </li>
-                            <li>
-                                <p class="timeRefSeconds">SECONDS</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="thumb_desc">
-                        <h3> totam rem aperiam</h3>
-                        <div class="price">
-                            <span class="reducedfrom">$140.00</span>
-                            <span class="actual">$120.00</span>
-                        </div>
-                    </div>
-                    <a href="#"><div class="m_3 deal"><div class="link3">Buy this deal</div></div></a>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <ul class="spinner">
-                    <i class="paperclip"> </i>
-                    <li class="spinner_head"><h3>From the Blog</h3></li>
-                    <div class="clearfix"> </div>
-                </ul>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t4.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t5.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t6.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="a-top">
-                    <div class="left-grid">
-                        <img src="{{ asset('/') }}front/images/t7.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="right-grid">
-                        <h4><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-                    </div>
-                    <div class="but">
-                        <a class="arrow" href="#"> </a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
         <div class="content_bottom">
             <div class="col-md-3 span_1">
                 <ul class="spinner">
